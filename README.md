@@ -19,9 +19,10 @@ Running in intelliJ by passing the file as a param
 Choose the
 AnagramFinderApplication ->Modify Run Configurations-> go to program Arguments -> Give your exact example2.txt file location 
 
-Example for me the path is 
+Example for me the path is [it may differ for each]
 "C:\Users\workspace\MAVERICK\commercial-trading-java-techtest-master\src\main\resources\examples2.txt"
 
+where example2.txt is the text file that we want to search for anagrams
 Step 1 :
 
 After you set the program arguments please run the "AnagramFinderApplication" and it 
@@ -30,9 +31,7 @@ picks up the contents from example2.txt and apply the anagram logic and output w
 ## Running the tests
  Right click on AnagramCommandLineRunnerIntegrationTest.java and Run 
 * it executes all the junit test cases and test results listed in the respective editor console
-```
-./gradlew bootRun --args="example2.txt" 
-```
+
 where example2.txt is the text file that we want to search for anagrams
 
 
